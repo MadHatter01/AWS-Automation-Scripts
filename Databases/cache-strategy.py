@@ -2,6 +2,8 @@ import json
 import redis
 
 
+# Tested on EC2 instance connect. Make sure to add ssh in the security group. 
+
 class CacheManager:
     def __init__(self, cache_endpoint):
         self.client = redis.StrictRedis(host = cache_endpoint, port=6379, decode_responses=True)
