@@ -1,5 +1,3 @@
-Examples to create, configure, and manage AWS services using AWS SDK for Python (Boto3)
-
 # AWS Automation Examples with Boto3
 
 This repository showcases various examples of automating tasks within the AWS (Amazon Web Services) ecosystem using Boto3, the official AWS SDK for Python.
