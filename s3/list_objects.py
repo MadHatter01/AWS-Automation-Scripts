@@ -1,9 +1,4 @@
 import boto3
-from datetime import datetime
-
-
-
-
 
 def list_objects(bucket_name, s3_client):
     try:
