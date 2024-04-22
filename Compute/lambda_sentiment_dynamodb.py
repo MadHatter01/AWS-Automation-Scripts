@@ -9,7 +9,7 @@ table_name = "ProductReviews"
 table = dynamo_client.Table(table_name)
 
 
-# Lambda function that stores product reviews to dynamodb. When negative review is received, it will send an SNS notification
+# Lambda function that stores product reviews to dynamodb. When negative review is received, it will send an SNS notification. Sentiment analysis is performed by comprehend.
 
 
 def lambda_handler(event, context):
