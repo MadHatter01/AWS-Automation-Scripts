@@ -20,15 +20,15 @@ The examples in this repository cover a diverse range of AWS services and use ca
 
 ## Structure
 
-* Analytics
-* Communication
-* Compute
-* Configuration
-* Databases
-* IAM 
-* ML
-* Networking
-* S3
+* Analytics (Athena) 
+* Communication (SES, SQS, SNS)
+* Compute (EC2, Backups, Lambda)
+* Configuration (SSM)
+* Databases (Cache, RDS)
+* IAM (Users, Groups)
+* ML (Textract, Rekognition, Lex, Kendra, Comprehend, Transcribe)
+* Networking (Route 53)
+* S3 
 
 
 
