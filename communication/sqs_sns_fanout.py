@@ -39,9 +39,9 @@ def simulate_activity(sns_client, topic_arn):
 
 def main():
     sns_client = boto3.client('sns')
-    queue_arn = "[sqs_queue_arn]"
-    email_address="[email-id]"
-    topic_arn = "[sns_topic_arn]"
+    queue_arn = "[queue arn]"
+    email_address="[email]"
+    topic_arn = "[topic arn]"
     create_sqs_subscription(sns_client, topic_arn, queue_arn)
     create_email_subscription(sns_client, topic_arn, email_address)
 

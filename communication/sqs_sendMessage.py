@@ -10,7 +10,7 @@ def send_message(sqs_client, queue_url, message):
 
 def main():
     sqs_client = boto3.client('sqs')
-    queue_url = "[queue-url]"
+    queue_url = "[queue url]"
     message = "Hello world"
     send_message(sqs_client, queue_url, message)
 

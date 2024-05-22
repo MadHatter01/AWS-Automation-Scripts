@@ -18,6 +18,20 @@ The examples in this repository cover a diverse range of AWS services and use ca
 - Managing IAM users and roles
 - And much more!
 
+## Structure
+
+* Analytics
+* Communication
+* Compute
+* Configuration
+* Databases
+* IAM 
+* ML
+* Networking
+* S3
+
+
+
 ## Official Documentation
 https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
 
